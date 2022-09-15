@@ -9,7 +9,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Carla Lopez
 - Jackson Canedy
 - Declan Harty
-- MEMBER04
+- Catie Roe
 
 
 ## Prerequisites  <_add anything else that applies_>
