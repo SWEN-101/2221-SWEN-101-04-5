@@ -5,11 +5,11 @@
 An online E-store system built in github.io .. etc. <_replace with other platform requirements_>
   
 ## Team 
-<_each team member clones repo and then edits/replace with their name below_>
 - Carla Lopez
 - Jackson Canedy
 - Declan Harty
 - Catie Roe
+- Andrew Haitsch
 
 
 ## Prerequisites  <_add anything else that applies_>
