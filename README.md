@@ -20,7 +20,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 
 ## How to access it or run it  <_add when applicable_>
 
-1. [Click here!](index.html)
+1. [Click here to open the github.io page!](https://swen-101.github.io/2221-SWEN-101-04-5/)
 2.  
 3.  
 4.  
