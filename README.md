@@ -20,7 +20,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 
 ## How to access it or run it  <_add when applicable_>
 
-1. Clone the repository and go to the root directory.
+1. [Click here!](index.html)
 2.  
 3.  
 4.  
