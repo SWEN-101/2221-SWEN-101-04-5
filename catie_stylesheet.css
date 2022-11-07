@@ -1,3 +1,5 @@
+@import "template_stylesheet.css";
+
 ul {
     list-style-image: url("check_box.png");
 }
