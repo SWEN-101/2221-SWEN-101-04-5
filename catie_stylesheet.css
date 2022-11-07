@@ -1,10 +1,13 @@
 @import "template_stylesheet.css";
 
-ul {
-    list-style-image: url("checkbox.png");
+li {
+    list-style: none;
 }
 
-image {
-    height: 50px;
-    width: 50px;
+li::before {
+    content: '';
+    display: inline-block;
+    height: "20px";
+    width: "20px";
+    background-image: url("checkbox.png");
 }
