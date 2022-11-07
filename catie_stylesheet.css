@@ -5,3 +5,8 @@ ul {
     line-height: "100px";
     font-size: larger;
 }
+
+h1 {
+    font-weight: bold;
+    padding: "100px";
+}
