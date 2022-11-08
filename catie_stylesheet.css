@@ -8,5 +8,6 @@ ul {
 
 h1 {
     font-weight: bold;
-    padding: "100px";
+    padding: "150px";
+    font-size: medium;
 }
