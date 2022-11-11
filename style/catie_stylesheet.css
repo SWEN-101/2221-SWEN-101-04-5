@@ -1,0 +1,13 @@
+@import "template_stylesheet.css";
+
+ul {
+    list-style-type: none;
+    line-height: "100px";
+    font-size: larger;
+}
+
+h1 {
+    font-weight: bold;
+    padding: "150px";
+    font-size: larger;
+}
