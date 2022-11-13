@@ -11,7 +11,7 @@
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(230, 27, 101);
+    background-color: rgb(244, 25, 65);
     font-size: xx-large;
     width: 100%;
     height: 15%;
@@ -27,10 +27,10 @@
 .page_button{
     display: flex;
     justify-content: center;
-    margin: 5% 10%;
+    margin: 30% 10%;
     padding: 5%;
     outline-style: solid;
-    border-radius: 10px;
+    border-radius: 50px;
     text-decoration: none;
 
     font-family: 'Courier New', Courier, monospace;
