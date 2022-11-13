@@ -3,20 +3,38 @@
     justify-content: center;
     width: 600px;
     height: 1066px;
+
+    outline: solid;
 }
 
 .header{
     display: inline-flex;
     justify-content: space-around;
-    background-color: rgb(225, 26, 59);
+    align-items: center;
+    background-color: rgb(230, 27, 101);
+    font-size: xx-large;
     width: 100%;
-}
-
-.page_title{
-    font-size: large;
+    height: 15%;
 }
 
 .main_content{
     display: block;
     justify-content: center;
+
+    color: gainsboro;
+}
+
+.page_button{
+    display: flex;
+    justify-content: center;
+    margin: 5% 10%;
+    padding: 5%;
+    outline-style: solid;
+    border-radius: 10px;
+    text-decoration: none;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+
+    color: black;
 }
