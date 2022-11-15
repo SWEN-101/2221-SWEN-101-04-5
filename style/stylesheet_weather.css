@@ -16,23 +16,12 @@
     
 }
 
-.page_title{
-    font-size: x-large;
-}
-
 blank {
     opacity: 0;
 }
 
-.center {
-    text-align: center;
-}
-
-.right {
-    text-align: right;
-}
-
-.b {
-    border-width: 25px 
-    border-solid black;
+date {
+    font-size: x-large;
+    justify-content: space-around;
+    
 }

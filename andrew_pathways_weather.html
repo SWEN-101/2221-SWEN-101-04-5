@@ -2,7 +2,7 @@
     <head>
         <link href="style/stylesheet_weather.css" rel="stylesheet">  
     </head>
-    <body class = "body">
+    <body onload="getDate()">
         <div.header class = "header">
             <blank><img src="img/Hamburger_icon.png" alt="Nothing Here..." width="50px" height="50px"></blank>
 
@@ -11,9 +11,9 @@
             <a style="margin-right: 10px; margin-top: 5px;"><img src="img/Hamburger_icon.png" alt="Somethings wrong..." width="50px" height="50px"></a>
         
         </div.header>
-        
-        <div class = "main_content">
-
-            
+        <div style="text-align: center;" class = "Date and Location">
+            <date style="margin-top: 10px;" id="date"></date>
+            <p style="font-size: x-large;" >Add Location Here Possibly A Text Box</p>
+            <script src="scripts/weather_script.js"></script>
         </div>
     </body>
