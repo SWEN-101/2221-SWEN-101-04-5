@@ -1,8 +1,11 @@
-.body{
+body{
     display: block;
     justify-content: center;
-
     outline: solid;
+}
+* {
+    box-sizing: border-box;
+
 }
 
 .header{
@@ -15,12 +18,24 @@
     height: 15%;
 }
 
-.sidebar{
-    display: block;
-    justify-content: center;
-    width : 20%;
-    color: rgb(0, 0, 0);
-    border-style: solid;
+.page_title{
+    text-align: justify;
+}
+.columns {
+    float: left;
+    width: 100%;
+    padding: 13px;
+    min-height: 200px;
+    border:1px solid;
+    text-align: center;
+
+
+}
+
+.all-rows:after {
+    content:"";
+    display: table;
+    clear:both;
 }
 
 .sidebar_button{
@@ -29,28 +44,11 @@
     margin: 5% 10%;
     padding: 1%;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 5px;
     text-decoration: none;
 
     font-family: 'Courier New', Courier, monospace;
     font-size: 1vw;
     
     color: black;
-}
-
-.page_body{
-    display: flex;
-    width: 100%;
-}
-
-.main_content{
-    display: flex;
-    width: 80%;
-    padding: 1%;
-}
-
-.main_content img{
-    width: 40vw;
-    height: 40vw;
-    padding: 1%;
 }
