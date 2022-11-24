@@ -1,3 +1,4 @@
+
 body{
     display: block;
     justify-content: center;
@@ -9,7 +10,7 @@ body{
 }
 
 .header{
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(218, 17, 68);
@@ -18,8 +19,19 @@ body{
     height: 15%;
 }
 
+@media screen and (min-width:1000px){
+    .hamburger{
+        z-index: 5;
+        position: absolute;
+        top: 60px;
+        right:200px;
+
+    }
+}
+
+
 .page_title{
-    text-align: justify;
+    text-align: center;
 }
 .columns {
     float: left;
