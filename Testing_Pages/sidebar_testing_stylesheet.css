@@ -26,8 +26,8 @@
 .sidebar_button{
     display: flex;
     justify-content: center;
-    margin: 5% 10%;
-    padding: 1%;
+    margin: 10% 10%;
+    padding: 1.5%;
     border-style: solid;
     border-radius: 10px;
     text-decoration: none;
