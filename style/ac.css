@@ -82,3 +82,8 @@ hr{
     font-style: oblique;
 
 }
+
+a{
+    text-decoration: none;
+    color:rgb(238, 45, 45)
+}
