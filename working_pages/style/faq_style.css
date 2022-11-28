@@ -8,8 +8,7 @@
 .dropbtn {
     background-color: rgb(255, 103, 1);
     color: white;
-    padding-top: 16px;
-    padding-left: 70px;
+    padding: 16px;
     font-size: 16px;
 
     display: flex;
