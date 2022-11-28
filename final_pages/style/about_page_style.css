@@ -1,4 +1,30 @@
 .pathway_photo{
     width : 60%;
     height: 60%;
+    border: 10px solid;
+    border-radius: 50px;
+    border-color: white;
+}
+
+.text{
+    justify-self: right;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.header_and_text{
+    display: block;
+    padding-left: 20px;
+    
+}
+
+.about_header{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.main_content{
+    padding-top: 25px;
+    display: flex;
+    background-color: rgb(255, 206, 142);
 }

@@ -45,9 +45,8 @@
 }
 
 .main_content{
-    display: flex;
     width: 80%;
-    padding: 50px;
+    padding: 0px 50px;
 }
 
 
