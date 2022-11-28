@@ -1,0 +1,41 @@
+
+@media screen and (min-width:1000px){
+    .hamburger{
+        z-index: 5;
+        position: absolute;
+        top: 60px;
+        right:200px;
+
+    }
+}
+
+
+.page_title{
+    text-align: center;
+}
+.columns {
+    float: left;
+    width: 30%;
+    padding: 13px;
+    min-height: 200px;
+    border:1px solid;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.main_content{
+    background-color: rgb(255, 206, 142);;
+}
+
+
+.all-rows:after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.main_content{
+    justify-content: space-between;
+}
