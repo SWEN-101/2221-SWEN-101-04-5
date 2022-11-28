@@ -21,7 +21,7 @@
     justify-content: center;
     display: flex;
     width: 50%;
-    padding: 1%;
+    padding-top: 3%;
 }
 
 .recommendation_half{
@@ -30,9 +30,5 @@
     justify-content: center;
     display: flex;
     width: 50%;
-    padding: 1%;
-}
-
-.stack_text{
-    position: relative;
+    padding-top: 3%;
 }
