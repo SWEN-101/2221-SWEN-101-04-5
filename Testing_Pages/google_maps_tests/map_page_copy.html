@@ -1,31 +1,44 @@
-<!DOCTYPE html>
-    <head>
-        <link href="sidebar_testing_stylesheet.css" rel="stylesheet">
-        <script src="map_javascript_google.js" rel="js for google maps">
+
+<html>
+  <head>
+    <title>Add Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./test_gm_style.css" />
+    <script type="module">
+        // Initialize and add the map
+        function initMap() {
+        // The location of RIT
+        const rit = { lat: -25.344, lng: 131.031 };
+        // The map, centered at RIT
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: rit,
+        });
+        // The marker, positioned at RIT
+        const marker = new google.maps.Marker({
+            position: rit,
+            map: map,
+        });
+        }
+
+        window.initMap = initMap;
     </script>
-    </head>
-    <body class = body>
-        
-        <div class = "header">
-            <h1 class="page_title">Campus Map</h1> 
-        </div>
-        <div class="page_body">
-            <div class = "sidebar">
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
 
-                <a href="map_page.html" class="sidebar_button">Access Map</a>
-                <a href="assistant_page.html" class="sidebar_button">Virtual Assistant</a>
-                <a href="weather_page.html" class="sidebar_button">Weather</a>
-                <a href="search_bar_page.html" class="sidebar_button">Search Bar</a>
-                <a href="tutorial_page.html" class="sidebar_button">Tutorial</a>
-                <a href="settings_page.html" class="sidebar_button">Settings</a>
-                <a href="emergency_contact_page.html" class="sidebar_button">Emergency Contacts</a>
-                <a href="about_page.html" class="sidebar_button">About Page</a>
-
-            </div>
-            <body style="text-align: center;" onload="getDate()" class="main_content">
-                <date style="text-align: center;" id="date"></date>
-                <p style="font-size: x-large;" >Select a building to view its floorplan:</p>
-                <script src="../scripts/weather_script.js"></script>
-                <div id="map"></div>
-            </body>
-    </body>
+    <!-- 
+     The `defer` attribute causes the callback to execute after the full HTML
+     document has been parsed. For non-blocking uses, avoiding race conditions,
+     and consistent behavior across browsers, consider loading using Promises
+     with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+    -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdKO2SkGHRORle17zMnBxxg67GMWMcDik&callback=initMap&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>
