@@ -10,7 +10,7 @@ function getDate(){
     let day = today.getDate();
     let weekday = days[today.getDay()];
 
-    const formattedToday = weekday + " " + month + ' ' + day + ', ' + yyyy;
+    const formattedToday = weekday + ", " + month + ' ' + day + ', ' + yyyy;
 
     return_date.innerHTML = formattedToday;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
     <head>
         <link href="style/weather_stylesheet.css" rel="stylesheet">
+        <link href="style/main_style.css" rel="stylesheet">
         <script src="scripts/weather_script.js"></script>
     </head>
     <body onload="getDate()" class = body>
@@ -21,7 +22,12 @@
 
             </div>
             <div class="main_content">
-                <p id="date"></p>
-                <p style="font-size: x-large;" >Add Location Here Possibly A Text Box</p>
+                <div class="date_half">
+                    <date style="font-size: x-large" id="date"></date>
+                </div>
+                <div class="warning_half">
+                    <p style="font-size: x-large">Reccomendation</p>
+                </div>
+                
             </div>
     </body>
