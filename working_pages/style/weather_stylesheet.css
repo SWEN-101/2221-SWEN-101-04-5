@@ -3,18 +3,30 @@
     justify-content: center;
     display: flex;
     width: 80%;
+    background-color: rgb(255, 236, 212);
 }
 
 .date_half{
     border-style: solid;
+    border-color: rgb(217, 189, 144);
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    padding-top: 3%;
+}
+
+.warning_half{
+    border-style: solid;
+    border-color: rgb(217, 189, 144);
     justify-content: center;
     display: flex;
     width: 50%;
     padding: 1%;
 }
 
-.warning_half{
+.recommendation_half{
     border-style: solid;
+    border-color: rgb(217, 189, 144);
     justify-content: center;
     display: flex;
     width: 50%;
