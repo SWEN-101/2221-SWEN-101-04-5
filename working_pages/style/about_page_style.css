@@ -1,16 +1,16 @@
 .pathway_photo{
-    width : 60%;
-    height: 60%;
+    width : 400px;
+    height: 400px;
     border: 10px solid;
     border-radius: 50px;
     border-color: white;
 }
 
 .text{
-    justify-self: right;
-    float: right;
+    display: block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
+    width: 80%;
 }
 
 .header_and_text{
