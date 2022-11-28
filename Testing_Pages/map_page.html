@@ -1,8 +1,33 @@
 <!DOCTYPE html>
     <head>
         <link href="sidebar_testing_stylesheet.css" rel="stylesheet">
-        <script src="map_javascript_google.js" rel="js for google maps">
-    </script>
+                
+        <title>Campus Map</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+        <link rel="stylesheet" type="text/css" href="./sidebar_testing.html" />
+        <script type="module">
+
+            // Initialize and add the map
+            function initMap() {
+                // The location of RIT
+                const rit = { lat: 43.0848, lng: -77.6715 };
+                // The map, centered at RIT
+                const map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 16,
+                    center: rit,
+                });
+                // The marker, positioned at RIT
+                const marker = new google.maps.Marker({
+                    position: rit,
+                    map: map,
+                });
+            }
+            
+            window.initMap = initMap;
+
+        </script>
+        
     </head>
     <body class = body>
         
@@ -22,10 +47,10 @@
                 <a href="about_page.html" class="sidebar_button">About Page</a>
 
             </div>
-            <body style="text-align: center;" onload="getDate()" class="main_content">
-                <date style="text-align: center;" id="date"></date>
-                <p style="font-size: x-large;" >Select a building to view its floorplan:</p>
-                <script src="../scripts/weather_script.js"></script>
-                <div id="map"></div>
-            </body>
+            <div id="map"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdKO2SkGHRORle17zMnBxxg67GMWMcDik&callback=initMap&v=weekly"
+            defer
+            ></script>
+
+            </div>
     </body>

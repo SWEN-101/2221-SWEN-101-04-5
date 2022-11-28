@@ -54,3 +54,11 @@
     height: 40vw;
     padding: 1%;
 }
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 699px;
+    /* The height is 400 pixels */
+    width: 83%;
+    /* The width is the width of the web page */
+  }
