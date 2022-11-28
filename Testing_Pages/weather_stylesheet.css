@@ -44,6 +44,9 @@
 }
 
 .main_content{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     display: flex;
     width: 80%;
     padding: 1%;
@@ -55,10 +58,3 @@
     padding: 1%;
 }
 
-/* Set the size of the div element that contains the map */
-#map {
-    height: 100px;
-    /* The height is 400 pixels */
-    width: 40%;
-    /* The width is the width of the web page */
-  }

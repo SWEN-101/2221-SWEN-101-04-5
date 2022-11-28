@@ -1,18 +1,20 @@
 <!DOCTYPE html>
     <head>
-        <link href="weather_stylesheet.css" rel="stylesheet">
-        <script src="../scripts/weather_script.js"></script>
+        <link href="sidebar_testing_stylesheet.css" rel="stylesheet">
+        <script src="map_javascript_google.js" rel="js for google maps">
+    </script>
     </head>
-    <body onload="getDate()" class = body>
+    <body class = body>
+        
         <div class = "header">
-            <h1 class="page_title">Weather</h1> 
+            <h1 class="page_title">Campus Map</h1> 
         </div>
         <div class="page_body">
             <div class = "sidebar">
 
                 <a href="map_page.html" class="sidebar_button">Access Map</a>
                 <a href="assistant_page.html" class="sidebar_button">Virtual Assistant</a>
-                <a href="test_weather_page.html" class="sidebar_button">Weather</a>
+                <a href="weather_page.html" class="sidebar_button">Weather</a>
                 <a href="search_bar_page.html" class="sidebar_button">Search Bar</a>
                 <a href="tutorial_page.html" class="sidebar_button">Tutorial</a>
                 <a href="settings_page.html" class="sidebar_button">Settings</a>
@@ -20,8 +22,10 @@
                 <a href="about_page.html" class="sidebar_button">About Page</a>
 
             </div>
-            <div class="main_content">
-                <p id="date"></p>
-                <p style="font-size: x-large;" >Add Location Here Possibly A Text Box</p>
-            </div>
+            <body style="text-align: center;" onload="getDate()" class="main_content">
+                <date style="text-align: center;" id="date"></date>
+                <p style="font-size: x-large;" >Select a building to view its floorplan:</p>
+                <script src="../scripts/weather_script.js"></script>
+                <div id="map"></div>
+            </body>
     </body>
